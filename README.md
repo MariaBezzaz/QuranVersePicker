@@ -5,4 +5,4 @@ Quran Verse Picker is a simple yet meaningful project designed to provide daily 
 
 The project features a modern and visually appealing UI, blending dark themes with neon accents and glassmorphism, enhancing the user experience.
 
-![Quran Verse Picker UI](ui_preview(1).png)
+![Quran Verse Picker UI](ui_preview (1).png)
