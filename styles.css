@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #0A0A0A;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Pink and Green Ellipses */
+
+
+#container {
+    width: 962px;
+    padding: 20px;
+    margin-top: 60px;
+    position: relative;
+    height: 311px;
+    text-align: center;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    backdrop-filter: blur(6px);
+    border: 1px solid rgb(58, 57, 57);
+    /* Add colorful shadow */
+    box-shadow: 0 2px 13px rgba(247, 35, 136, 0.77), 0 0 25px rgba(247, 35, 136, 0);
+}
+
+
+
+#btn {
+    margin-right: 40px;
+    margin-bottom: -20px;
+    font-size: 20px;
+    font-family: "Outfit", sans-serif;
+    position: absolute;
+    bottom: 40px;
+    right: -17px;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 165px;
+    height: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #F72388F0, #911450F0);
+}
+#btn:hover {
+    opacity: 1;
+    border: 1.5px solid rgba(255, 253, 253, 0.204);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 2px 13px rgba(247, 35, 136, 0.77), 0 0 25px rgba(247, 35, 136, 0);
+    
+}
+#background-ellipse {
+    position: absolute;
+    width: 901px;
+    height: 720px;
+    top: -445px;
+    left: -181px;
+    background: linear-gradient(180deg, #3EFF3B 0%, rgba(62, 255, 59, 0) 100%);
+    border-radius: 50%; /* Makes it an ellipse */
+    filter: blur(600px); 
+    opacity: 1; /* Adjust opacity if needed */
+    z-index: -1; 
+}
+#second-ellipse {
+    position: absolute;
+    width: 720px;
+    height: 720px;
+    top: 664px;
+    left: 360px;
+    background: linear-gradient(180deg, rgba(247, 35, 136, 0.77) 0%, rgba(247, 35, 136, 0) 100%);
+    border-radius: 50%; /* Makes it an ellipse */
+    filter: blur(600px); /* Layer blur effect */
+    opacity: 1;
+    z-index: -1; 
+}
+#output {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-size: 24.11px;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.txt {
+    font-size: 50px;
+    font-family: "Geologica", sans-serif;
+    color: #ffff;
+    font-weight: 800;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.txt-2 {
+    font-family: "Outfit", sans-serif;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -15px;
+}
+
+.heart-icon {
+    width: 140px ;
+    height: 140px;
+    vertical-align: middle;
+    margin-left: 0px
+}
+
+.plant {
+
+    width: 180px ;
+    height: 180px;
+    position: absolute;
+    bottom: -35px;
+    left: -17px;
+
+}
